@@ -1,0 +1,15 @@
+[package]
+name = "sync-nft-move"
+version = "0.0.1"
+# published-at = "0x28b36737cb732fb811dfd449a95f22eef9955a566f2354ff0d3b3e751b8b59fb"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+sync_nft_move = "0x0"
+
+
+# contract address 0xe2cf4b9f2345750a72ea5352d9b626d0d9c65abfb1a725f6d40dc009155d69e4
+# upgrade cap 0xf72af6cd47f7d4d91b3de4582277a712e30aac5d4e8fa9079d3780dddac9201a
+# 1000000000
